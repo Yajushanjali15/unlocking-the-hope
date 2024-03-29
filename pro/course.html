@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewpoint" content=" with=device-width,initial-scale=1.0">
+    <title>gitconnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family Poppins:wght@100%;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <!---we had linked our css file----->
+</head>
+<body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="1.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+             <li><a href="">HOME</a></li>
+             <li><a href="">ABOUT</a></li>
+             <li><a href="">COURSE</a></li>
+             <li><a href="">BLOG</a></li>
+             <li><a href="">CONTACT</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+ <h1>Our Course</h1>
+</section>
+
+<section class="course">
+    <h1>Features We Offer</h1>
+    
+    
+    <div class="row">
+      <div class="course-col">
+         <h3>Mood Tracking</h3>
+         <p>
+            1. Self-Awareness<br>
+            2. Monitoring Mental Health<br>
+            3. Treatment Support<br>
+            4. Identifying Triggers<br>
+            5. Tracking Progress<br>
+            6. Communication with Healthcare Providers<br>
+            7. Personalized Interventions<br>
+            8. Promoting Accountability<br>
+            9. Enhancing Self-Care Practices<br>
+            10. Improving Decision-Making</p>
+         </div>
+         <div class="course-col">
+            <h3>Stress Buster</h3>
+            <p>1. Stress Awareness<br>
+                2. Stress Management<br>
+                3. Relaxation Techniques<br>
+                4. Physical Activity<br>
+                5. Mindfulness and Meditation<br>
+                6. Social Support<br>
+                7. Time Management<br>
+                8. Healthy Lifestyle Choices<br>
+                9. Creative Outlets<br>
+                10. Professional Help</p>
+         </div>
+          <div class="course-col">
+            <h3>Gaming</h3>
+            <p>1. Cognitive Stimulation<br>
+                2. Stress Relief<br>
+                3. Social Interaction<br>
+                4. Distraction from Negative Thoughts<br>
+                5. Emotional Regulation<br>
+                6. Skill Development<br>
+                7. Sense of Achievement<br>
+                8. Community Support<br>
+                9. Mindfulness and Flow<br>
+                10. Therapeutic Engagement</p>
+         </div>
+      </div>
+ 
+ </section>
+
+ 
+
+
+<!-- Footer--->
+
+
+<!--------JavaScript for Toggle Menu------>
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

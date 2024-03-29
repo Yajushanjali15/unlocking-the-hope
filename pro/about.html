@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewpoint" content=" with=device-width,initial-scale=1.0">
+    <title>gitconnect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family Poppins:wght@100%;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <!---we had linked our css file----->
+</head>
+<body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="1.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+             <li><a href="">HOME</a></li>
+             <li><a href="">ABOUT</a></li>
+             <li><a href="">COURSE</a></li>
+             <li><a href="">BLOG</a></li>
+             <li><a href="">CONTACT</a></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+ <h1>About Us</h1>
+</section>
+
+<!----- Course----->
+<section class="about us">
+    <div class="row">
+      <div class="about-col">
+        <h1>Contextual Analysis:</h1>
+        <p>1. Develop a Mobile App: Create a user-friendly mobile application that offers personalized support, such as mood tracking, self-help exercises, and access to online support groups.<br>
+
+            2. Online Therapy Platforms : Partner with mental health professionals to provide accessible online therapy sessions tailored to individuals' needs, offering counseling and coping strategies.<br>
+            
+            3. Community Forums and Support Groups : Establish online forums or support groups where individuals can connect with others experiencing similar challenges, fostering a sense of community and understanding.<br>
+            
+            4. Peer Support Networks : Facilitate peer support networks where individuals can share experiences, coping strategies, and encouragement with one another in a safe and supportive environment.<br>
+            
+            5. *Partnerships with Mental Health Organizations*: Collaborate with mental health organizations and advocacy groups to raise awareness, reduce stigma, and improve access to resources and support for individuals experiencing depression and anxiety.<br> 6. Telemedicine Services : Offer telemedicine services, including virtual consultations with mental health professionals, medication management, and crisis intervention, to increase accessibility to professional support.<br>
+
+            7. Educational Resources : Provide easily accessible educational resources on depression and anxiety, including articles, videos, and podcasts, to empower individuals with knowledge and coping strategies.<br>
+            
+            8. Mindfulness and Meditation Practices : Integrate mindfulness and meditation practices into the solution, offering guided sessions and relaxation techniques to help individuals manage stress and improve mental well-being.<br>
+            
+            9. Peer Mentorship Programs : Establish peer mentorship programs where individuals who have successfully managed their depression and anxiety can provide guidance, support, and encouragement to those currently struggling.<br>
+            
+            <a href=""class = "hero-btn red-btn">EXP NOW</a>
+    </div>
+     <div class="about-col">
+       <img src="a9.jpeg.jpg">
+    </div>  
+</div>
+</section>
+<!--------JavaScript for Toggle Menu------>
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
